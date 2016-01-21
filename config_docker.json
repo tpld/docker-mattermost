@@ -33,7 +33,7 @@
         "MaxIdleConns": 10,
         "MaxOpenConns": 10,
         "Trace": false,
-        "AtRestEncryptKey": "7rAh6iwQCkV4cA1Gsg3fgGOXJAQ43QVg"
+        "AtRestEncryptKey": "G5YxiyhVe9arVaqY8gmsh5HKoD3Qn4Mj"
     },
     "LogSettings": {
         "EnableConsole": false,
@@ -45,9 +45,9 @@
     },
     "FileSettings": {
         "DriverName": "local",
-        "Directory": "/mattermost/data/",
+        "Directory": "/app/mattermost/data/",
         "EnablePublicLink": true,
-        "PublicLinkSalt": "A705AklYF8MFDOfcwh3I488G8vtLlVip",
+        "PublicLinkSalt": "HeMVCnFXxY55BHGR2xJ2cUBiA6ATzJnN",
         "ThumbnailWidth": 120,
         "ThumbnailHeight": 100,
         "PreviewWidth": 1024,
@@ -75,8 +75,8 @@
         "SMTPServer": "",
         "SMTPPort": "",
         "ConnectionSecurity": "",
-        "InviteSalt": "bjlSR4QqkXFBr7TP4oDzlfZmcNuH9YoS",
-        "PasswordResetSalt": "vZ4DcKyVVRlKHHJpexcuXzojkE5PZ5eL",
+        "InviteSalt": "ks9F2VnjLGEbkTRxV3hVnp2Z2ZDcNiYe",
+        "PasswordResetSalt": "hfHe7PVvhD8JzYExbhcQrnN3KGicgqi8",
         "SendPushNotifications": false,
         "PushNotificationServer": ""
     },
