@@ -1,6 +1,11 @@
 Docker file to build mattermost (base on official mattermost dockerfile).
 This build allow to use external MySQL database.
 
+To build run:
+```bash
+docker build -t tpld/mattermost .
+```
+
 Just use it like bellow:
 ```bash
 docker run -ti --name="mat" \
@@ -10,7 +15,6 @@ docker run -ti --name="mat" \
     --env="MYSQL_PASS=dbpass" \
     --env="MYSQL_DB=db_mattermost" \
     --env="MYSQL_CHARSET=utf8" \
-    --volume=/home/docker-volumes/mattermost:/mattermost/data \
     tpld/mattermost
 ```
     
